@@ -5,7 +5,8 @@ import { QrcodeStream } from 'vue-qrcode-reader'
 // URL
 // const URl = 'http://tapxter.test/tags/viewtagownerbyvirtagid'
 // const BASE_URL = 'http://tapxter.test'
-const BASE_URL = 'https://tapxter-api-df689ec6366f4275d888.tapxter.com'
+const PROTOCOL = 'https:'
+const BASE_URL = '//tapxter-api-df689ec6366f4275d888.tapxter.com'
 const END_POINT = 'tags/viewtagownerbyvirtagid'
 const URl = BASE_URL + '/' + END_POINT
 
