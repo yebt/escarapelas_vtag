@@ -41,6 +41,9 @@ body {
   min-height: 100dvh !important;
 }
 
+dialog article {
+  max-height: calc(100dvh - var(--spacing) * 2) !important;  
+}
 /* .qrcode-stream>video{
   position: unset !important;
 } */
